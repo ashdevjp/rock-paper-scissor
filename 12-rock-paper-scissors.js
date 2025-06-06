@@ -114,7 +114,7 @@
   .innerHTML = result;
 
   document.querySelector('.js-moves')
-  .innerHTML = `YOU <img  src="./${playerMove}.png" class ="move-icon"> vs <img src="./${compMove}.png" class ="move-icon"> COMPUTER`;
+  .innerHTML = `YOU -> ${playerMove} vs ${compMove} <-COMPUTER`;
 
 
   }
